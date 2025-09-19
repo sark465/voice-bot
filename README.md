@@ -9,7 +9,7 @@ A browser-based voice bot powered by OpenAI's GPT-4 API. Users can ask questions
 - Attractive UI with chat bubbles
 
 ## Live Demo
-[Click here to test the voice bot]
+[Click here to test the voice bot] (https://voice-bot-x4x1.onrender.com)
 
 ## Local Setup
 1. Clone the repo:  

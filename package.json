@@ -1,0 +1,17 @@
+{
+  "name": "voice-bot",
+  "version": "1.0.0",
+  "description": "AI Voice-Enabled Chatbot with Express and Web Speech API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chatbot", "voice", "ai", "express", "speech-recognition"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

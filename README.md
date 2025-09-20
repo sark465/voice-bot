@@ -1,11 +1,10 @@
 # Voice Bot Web App
 
-A browser-based voice bot powered by OpenAI's GPT-4 API. Users can ask questions via voice and get predefined or AI-generated responses.
+A browser-based voice bot powered by Sarnali Sarkar. Users can ask questions via voice and get predefined or AI-generated responses.
 
 ## Features
 - Speech recognition (voice input)
 - Predefined small-talk and interview Q&A responses
-- Fully browser-based, no coding required
 - Attractive UI with chat bubbles
 
 ## Live Demo

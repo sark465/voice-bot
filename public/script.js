@@ -5,13 +5,14 @@ let recognition = null; // Global reference for stopping
 
 // Pre-programmed answers (small talk + example questions)
 const predefinedAnswers = {
-    "what should we know about your life story": "I’m Sarnali Sarkar, a data science enthusiast with hands-on experience in AI, ML, and video summarization.",
-    "what should you know about your life story": "I’m Sarnali Sarkar, a data science enthusiast with hands-on experience in AI, ML, and video summarization.",
+    // Life & Career
+    "what should we know about your life story in a few sentences": "I’m Sarnali Sarkar, a data science enthusiast with hands-on experience in AI, ML, and video summarization.",
+    "what’s your #1 superpower": "My superpower is my ability to adapt quickly and apply AI/ML techniques to solve real-world problems.",
     "what are the top 3 areas you’d like to grow in": "I want to grow in cloud AI integration, advanced NLP techniques, and scalable model deployment.",
-    "top 3 areas you want to grow": "I want to grow in cloud AI integration, advanced NLP techniques, and scalable model deployment.",
     "what misconception do your coworkers have about you": "Sometimes coworkers think I only focus on coding, but I also excel at strategy and planning.",
     "how do you push your boundaries and limits": "I push my limits by exploring new AI techniques and taking on challenging projects beyond my comfort zone.",
 
+    // Small talk
     "hi": "Hello!",
     "hello": "Hi there!",
     "hey": "Hey! How are you?",
@@ -19,6 +20,7 @@ const predefinedAnswers = {
     "how is your day going": "I’m doing well, thanks for asking!",
     "what's up": "All good! How about you?"
 };
+
 
 // Normalize text: lowercase and remove punctuation
 const normalize = (text) => text.toLowerCase().replace(/[^\w\s]/gi, '');
